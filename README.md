@@ -13,6 +13,10 @@ CIFAR-5m is available publicly on Google Cloud Storage as 6 npz files,
 accessible at `gs://gresearch/cifar5m/part{i}.npz` for `i` in `{0,...,5}`.
 Or via HTTP, e.g. <https://storage.cloud.google.com/gresearch/cifar5m/part0.npz>.
 
+## Samples
+
+![samples](./cifar5m_samples.png)
+
 ## Benchmarks
 The distribution of CIFAR-5m is of course not identical to CIFAR-10,
 but is close for research purposes.
@@ -32,3 +36,5 @@ ResNet18 trained with standard data-augmentation:
 |     ↓        | CIFAR-10                          | CIFAR-5m |
 |  CIFAR-10   |  0.032                              |  0.091     |
 |  CIFAR-5m   |  0.088                          |  0.097   |
+
+
